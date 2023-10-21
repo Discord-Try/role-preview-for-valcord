@@ -1,5 +1,6 @@
 .snowpack
 node_modules
+dist
 
 # IntelliJ
 **/.idea/workspace.xml

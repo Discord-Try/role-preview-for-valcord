@@ -50,8 +50,16 @@
   flex: 1 1 100%;
 }
 
+.RoleConfigurator .roles-list.native .name-input {
+    font-size: 14px;
+}
+
 .RoleConfigurator .role .color-button-wrapper {
   position: relative;
+}
+
+.RoleConfigurator .roles-list.native .role .color-button-wrapper {
+  margin-left: 24px;
 }
 
 .RoleConfigurator .role .color-button {
@@ -68,6 +76,11 @@
   text-indent: -9999px;
 
   cursor: pointer;
+}
+
+.RoleConfigurator .roles-list.native .role .color-button {
+    cursor: default;
+    border: 0;
 }
 
 .RoleConfigurator .color-picker {

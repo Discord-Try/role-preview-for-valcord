@@ -41,7 +41,7 @@
 }
 
 .PreviewPane .messages {
-  padding: 0 20px;
+  padding: 20px 20px;
 }
 
 .PreviewPane .message {
@@ -50,11 +50,19 @@
   grid-template-columns: 60px auto;
 }
 
+.PreviewPane .message.native {
+    padding: 5px 0;
+}
+
 .PreviewPane .message .name {
   grid-column: 2;
   grid-row: 1;
   padding-bottom: 2px;
   color: var(--role-color);
+}
+
+.PreviewPane .message.native .name {
+    line-height: 20px;
 }
 
 .PreviewPane .message .body {
@@ -71,10 +79,22 @@
   grid-row: span 2;
 }
 
+.PreviewPane .message.native .avatar {
+  grid-column: 1;
+  grid-row: 1;
+}
+
 .PreviewPane .message .avatar-image {
   width: 40px;
   height: 40px;
   background-color: var(--role-color);
+}
+
+.PreviewPane .message.native .avatar-image {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: 30px;
 }
 
 .PreviewPane .message + .message {
