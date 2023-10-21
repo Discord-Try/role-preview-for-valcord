@@ -1,9 +1,10 @@
-# Role Preview for Discord
+# Role Preview for Valcord
 
 This is a tool that allows you to preview Discord role colors on the dark and light theme simultaneously,
 optionally also applying various color blindness filters to create accessible roles.
 
-Visit [https://role-preview-for-discord.pages.dragory.net](https://role-preview-for-discord.pages.dragory.net) to use the tool!
+Visit [https://role-preview-for-discord.pages.dragory.net](https://role-preview-for-discord.pages.dragory.net) to use the original version of the tool!
+Visit [https://role-preview-for-valcord.pages.dragory.net](https://role-preview-for-discord.pages.dragory.net) to use the Valcord version of the tool!
 
 ## Development
 

@@ -24,6 +24,6 @@ module.exports = {
   },
   buildOptions: {
     out: "dist",
-    baseUrl: process.env.BASE_URL || "/"
+    baseUrl: process.env.BASE_URL || "/role-preview-for-valcord"
   },
 };
