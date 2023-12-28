@@ -34,18 +34,6 @@ const defaultRoles: Role[] = [
     },
     {
         id: 0,
-        name: "Events Team",
-        color: "#d954ef",
-        native: true,
-    },
-    {
-        id: 0,
-        name: "Design Team",
-        color: "#5282ff",
-        native: true,
-    },
-    {
-        id: 0,
         name: "Riot Employee",
         color: "#ff2c2c",
         native: true,
